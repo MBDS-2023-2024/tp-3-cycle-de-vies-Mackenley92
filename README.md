@@ -127,7 +127,7 @@ Aussi, l'activité principal (MainActivity) devra indiquer le type d'opération 
 
 - Afficher l'activité ```ComputeActivity``` quand l'utilisateur clique sur le bouton
 ```kotlin 
-  btnCompute.setOnClickListener {
+  btnhomeCompute.setOnClickListener {
       val intent = Intent(this, ComputeActivity::class.java)
       intent.extras?.putString("operation", "ADD")
       startActivity(intent)
